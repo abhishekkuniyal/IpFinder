@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@theme {
+  --font-key: "Libertinus Keyboard", system-ui;
+  --font-inter: "Inter", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
+  --font-pangolin: "Pangolin", cursive;
+  --font-eue: "Bebas Neue", sans-serif;
+  --font-script: "Story Script", sans-serif;
+  --font-rowdies: "Rowdies", sans-serif;
+  --font-gothic: "Science Gothic", sans-serif;
+  --font-bit: "Bitcount Prop Single", system-ui;
+  --animate-typewriter:
+    typing 4s steps(30) forwards, blink 0.75s step-end infinite;
+  --animate-rotate-border: border-rotate 5s linear infinite;
+  --animate-infinte: infinite-scroll 10s linear infinite;
+}
